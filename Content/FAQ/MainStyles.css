@@ -1,0 +1,598 @@
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+body
+{
+	font-family: Roboto;
+}
+
+h1
+{
+	font-weight: bold;
+	font-size: 24.0pt;
+	font-family: 'Roboto Black';
+	color: #4f46ba;
+}
+
+h2
+{
+	font-weight: bold;
+	font-size: 18.0pt;
+	font-family: 'Roboto Black';
+	color: #91288d;
+}
+
+h3
+{
+	font-weight: bold;
+	font-size: 14.0pt;
+	font-family: 'Roboto Black';
+}
+
+h4
+{
+	font-weight: bold;
+	font-size: 12.0pt;
+	font-family: 'Roboto Black';
+}
+
+h5
+{
+	font-weight: bold;
+	font-size: 10.0pt;
+	font-family: 'Roboto Black';
+}
+
+h6
+{
+	font-weight: bold;
+	font-size: 8.0pt;
+	font-family: 'Roboto Black';
+}
+
+p
+{
+	font-size: 12.0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: Roboto;
+}
+
+ol,
+ul
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+img
+{
+	border: none;
+}
+
+MadCap|expandingHead
+{
+	font-style: italic;
+	font-weight: normal;
+	cursor: hand;
+	text-decoration: none;
+	color: #006600;
+}
+
+MadCap|expandingBody
+{
+	color: #777777;
+	font-style: italic;
+}
+
+MadCap|dropDownHotspot
+{
+	cursor: hand;
+	font-style: italic;
+	text-decoration: none;
+	color: #006600;
+}
+
+.body-container
+{
+	padding-top: 2em;
+	padding-left: 3em;
+	padding-right: 3em;
+}
+
+/*== Other topics header bar styles ==*/
+
+.title-bar-container
+{
+	box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	/*adds the shadow effect to the header*/
+}
+
+/*== madcap proxy assigned styles ==*/
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom-width: 0;
+	color: #888888;
+}
+
+p.Concept
+{
+	font-family: 'Roboto Black';
+}
+
+p.IndexHeading
+{
+	color: #4f46ba;
+}
+
+p.MiniTOC1
+{
+	color: #4f46ba;
+}
+
+p.TOC1
+{
+	color: #4f46ba;
+}
+
+ol
+{
+	font-family: Roboto;
+}
+
+ul
+{
+	font-family: Roboto;
+}
+
+a
+{
+	font-family: Roboto;
+	color: #4f46ba;
+}
+
+a:visited
+{
+	color: #91288d;
+}
+
+div.GlossaryPageTerm
+{
+	color: #91288d;
+}
+
+div.GlossaryPageHeading
+{
+	color: #4f46ba;
+}
+
+b
+{
+	font-family: Roboto;
+}
+
+u
+{
+	font-family: Roboto;
+}
+
+MadCap|glossaryTerm
+{
+	color: #f9896b;
+}
+
+@media only screen and (max-width: 1279px)
+{
+	.body-container
+	{
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+}
+
+h1.concepttitle
+{
+	
+}
+
+p.shortdesc
+{
+	
+}
+
+html.concept
+{
+	font-family: sans-serif;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: 6pt;
+	margin-bottom: 9pt;
+}
+
+body.conbody
+{
+	margin-top: 6pt;
+}
+
+p
+{
+	margin-top: 6pt;
+}
+
+ul
+{
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+}
+
+li
+{
+	margin-left: 20pt;
+	margin-top: 6pt;
+	margin-bottom: 2pt;
+}
+
+h1.tasktitle
+{
+	
+}
+
+html.task
+{
+	
+}
+
+body.taskbody
+{
+	
+}
+
+div.context
+{
+	
+}
+
+ol.steps
+{
+	
+}
+
+li.step
+{
+	
+}
+
+span.cmd
+{
+	
+}
+
+span.uicontrol
+{
+	font-weight: bold;
+	color: #4f46ba;
+}
+
+div.stepresult
+{
+	
+}
+
+span.wintitle
+{
+	font-style: italic;
+	color: #4f46ba;
+}
+
+span.userinput
+{
+	font-family: monospace;
+}
+
+div.note
+{
+	margin-top: 6pt;
+}
+
+div.note
+{
+	color: #4f46ba;
+	font-style: italic;
+}
+
+div.result
+{
+	
+}
+
+p.note
+{
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	background-color: #fff;
+	background-image: url(../Resources/Images/note.png);
+	color: #4f46ba;
+	mc-auto-number-format: '{color #4f46ba}{b}Note: {/b}{/color} ';
+	background-position: 9px 9px;
+	background-repeat: no-repeat;
+	border: solid 1px #4f46ba;
+	border-radius: 6px;
+	line-height: 24px;
+	overflow: hidden;
+	padding: 10px 10px 10px 70px;
+	font-family: 'Roboto', 'Arial';
+	font-size: 1em;
+	font-weight: 500;
+	letter-spacing: 0em;
+}
+
+p.warning
+{
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	background-color: #fff;
+	background-image: url(../Resources/Images/warning.png);
+	mc-auto-number-format: '{color #91288d}{b}Warning: {/b}{/color} ';
+	color: #91288d;
+	background-position: 9px 2px;
+	background-repeat: no-repeat;
+	border: solid 1px #91288d;
+	border-radius: 6px;
+	line-height: 24px;
+	overflow: hidden;
+	padding: 15px 15px 15px 60px;
+	font-family: 'Roboto', 'Arial';
+	font-size: 1em;
+	font-weight: 500;
+	letter-spacing: 0em;
+}
+
+h1.concepttitle
+{
+	
+}
+
+p.shortdesc
+{
+	
+}
+
+html.concept
+{
+	font-family: sans-serif;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: 6pt;
+	margin-bottom: 9pt;
+}
+
+body.conbody
+{
+	margin-top: 6pt;
+}
+
+p
+{
+	margin-top: 6pt;
+}
+
+ul
+{
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+}
+
+li
+{
+	margin-left: 20pt;
+	margin-top: 6pt;
+	margin-bottom: 2pt;
+}
+
+h1.tasktitle
+{
+	
+}
+
+html.task
+{
+	
+}
+
+body.taskbody
+{
+	
+}
+
+div.prereq
+{
+	
+}
+
+div.context
+{
+	
+}
+
+ol.steps
+{
+	
+}
+
+li.step
+{
+	
+}
+
+span.cmd
+{
+	
+}
+
+span.uicontrol
+{
+	
+}
+
+div.stepresult
+{
+	
+}
+
+span.wintitle
+{
+	
+}
+
+span.userinput
+{
+	
+}
+
+div.note
+{
+	margin-top: 6pt;
+}
+
+div.note
+{
+	
+}
+
+div.choices
+{
+	
+}
+
+div.choice
+{
+	
+}
+
+table.choicetable
+{
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-spacing: 0;
+	border-collapse: collapse;
+	margin-top: 20pt;
+	margin-bottom: 20pt;
+	border: solid 1px #4f46ba;
+	border-radius: 6px;
+}
+
+th,
+td
+{
+	padding: 12px;
+}
+
+th
+{
+	background-color: #4f46ba;
+	color: white;
+}
+
+thead.chhead
+{
+	
+}
+
+th.choptionhd
+{
+	border-left: thin solid gray;
+	border-right: thin solid gray;
+	border-top: thin solid gray;
+	border-bottom: thin solid gray;
+}
+
+th.chdeschd
+{
+	border-left: thin solid gray;
+	border-right: thin solid gray;
+	border-top: thin solid gray;
+	border-bottom: thin solid gray;
+}
+
+tr.chrow
+{
+	
+}
+
+td.choption
+{
+	border-left: thin solid gray;
+	border-right: thin solid gray;
+	border-top: thin solid gray;
+	border-bottom: thin solid gray;
+}
+
+td.chdesc
+{
+	border-left: thin solid gray;
+	border-right: thin solid gray;
+	border-top: thin solid gray;
+	border-bottom: thin solid gray;
+}
+
+div.result
+{
+	
+}
+
+h1.concepttitle
+{
+	
+}
+
+p.shortdesc
+{
+	
+}
+
+html.concept
+{
+	font-family: sans-serif;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: 6pt;
+	margin-bottom: 9pt;
+}
+
+body.conbody
+{
+	margin-top: 6pt;
+}
+
+div.section
+{
+	margin-top: 12pt;
+}
+
+h2.sectiontitle
+{
+	
+}
+
+p
+{
+	margin-top: 6pt;
+}
+
+div.noteWarning
+{
+	margin-top: 6pt;
+}
+
+div.noteWarning
+{
+	
+}
+
+span.wintitle
+{
+	
+}
+
