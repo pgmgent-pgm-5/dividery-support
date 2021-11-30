@@ -1,6 +1,4 @@
-/*<meta />*/
-
-@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+﻿/*<meta />*/
 
 body
 {
@@ -183,7 +181,7 @@ MadCap|glossaryTerm
 	color: #f9896b;
 }
 
-@media only screen and (max-width: 1279px)
+@media tablet
 {
 	.body-container
 	{
@@ -475,24 +473,19 @@ table.choicetable
 {
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
-	border-spacing: 0;
+    border-spacing: 0;
 	border-collapse: collapse;
 	margin-top: 20pt;
 	margin-bottom: 20pt;
 	border: solid 1px #4f46ba;
 	border-radius: 6px;
 }
-
-th,
-td
-{
-	padding: 12px;
-}
+th, td {padding: 12px;}
 
 th
 {
-	background-color: #4f46ba;
-	color: white;
+    background-color: #4f46ba;
+    color: white;
 }
 
 thead.chhead
@@ -541,4 +534,3 @@ div.result
 {
 	
 }
-
