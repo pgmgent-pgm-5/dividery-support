@@ -1,4 +1,6 @@
-﻿/*<meta />*/
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
 
 body
 {
@@ -181,7 +183,7 @@ MadCap|glossaryTerm
 	color: #f9896b;
 }
 
-@media tablet
+@media only screen and (max-width: 1279px)
 {
 	.body-container
 	{
@@ -726,3 +728,4 @@ div.noteWarning
 {
 	
 }
+
