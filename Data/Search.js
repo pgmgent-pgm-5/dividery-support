@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/A_Examples/Basic Steps.htm'],s:['+'],p:[['+',2],['list',28]]});
+define({r:0.5,st:'Stem',n:1,t:[0],m:[],u:['../Content/Accounts/Changing-profile-settings.htm'],s:['+'],p:[['+',2],['last',7]]});
