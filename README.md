@@ -18,7 +18,7 @@ The DiviDery Help Site has everything you need to get up and running with DiviDe
 ## Screenshots
 
 <div style="display: flex">
-    <img src="./Content/Resources/Images/Help-Screen-1.png" alt="Support home page screenshot."/>
+    <img src="./Content/Resources/Images/Help-Screen-1.png" alt="Support home page screenshot." style="width=250px;/>
     <img src="./Content/Resources/Images/Help-Screen-2.png" alt="Screenshot of instructions for settling payments and debt simplification."/>
     <img src="./Content/Resources/Images/Help-Screen-3.png" alt="Screenshot of frequently asked questions."/>
 </div>
@@ -36,8 +36,8 @@ The DiviDery Help Site has everything you need to get up and running with DiviDe
 
 ## Demo
 
-[Live Help Site dividery-support.onrender.com](https://dividery-support.onrender.com/Content/Home.htm)
-[Live Demo dividery.onrender.com](https://dividery.onrender.com)
+- [Live Help Site dividery-support.onrender.com](https://dividery-support.onrender.com/Content/Home.htm)
+- [Live Demo dividery.onrender.com](https://dividery.onrender.com)
 
 ## Client
 
