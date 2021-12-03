@@ -18,9 +18,9 @@ The DiviDery Help Site has everything you need to get up and running with DiviDe
 ## Screenshots
 
 <div style="display: flex">
-    <img src="./Content/Resources/Images/Help-Screen-1.png" alt="Support home page screenshot." style="width: 300px;"/>
-    <img src="./Content/Resources/Images/Help-Screen-2.png" alt="Screenshot of instructions for settling payments and debt simplification." style="width: 300px;"/>
-    <img src="./Content/Resources/Images/Help-Screen-3.png" alt="Screenshot of frequently asked questions." style="width: 300px;"/>
+    <img src="./Content/Resources/Images/Help-Screen-1.png" alt="Support home page screenshot." style="width: 300px;max-width:100%;"/>
+    <img src="./Content/Resources/Images/Help-Screen-2.png" alt="Screenshot of instructions for settling payments and debt simplification." style="width: 300px;max-width:100%;"/>
+    <img src="./Content/Resources/Images/Help-Screen-3.png" alt="Screenshot of frequently asked questions." style="width: 300px;max-width:100%;"/>
 </div>
 
 ## Color Reference
